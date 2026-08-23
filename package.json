@@ -1,0 +1,17 @@
+{
+  "name": "claude-ea-reviewer-mcp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "2.0.0",
+    "agents": "latest",
+    "zod": "latest"
+  },
+  "devDependencies": {
+    "wrangler": "latest"
+  }
+}
